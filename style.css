@@ -23,6 +23,7 @@ body {
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 
 #keys {
@@ -54,10 +55,15 @@ button:active {
 }
 
 .operator-btn {
-    background-color: hsl(35, 100%, 55%);
+    background-color: hsl(35, 100%, 45%);
 }
 
 .operator-btn:hover {
-    background-color: hsl(35, 100%, 75%);
+    background-color: hsl(35, 100%, 65%);
+
+}
+
+.operator-btn:hover:active {
+    background-color: hsl(35, 100%, 85%);
 
 }
